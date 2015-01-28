@@ -1,17 +1,19 @@
 Template._video.events({
   'click .record-button' : function(){
-
+    captureVideo();
   }
 });
 
-var captureVideo(){
+var captureVideo = function(){
   navigator.device.capture.captureVideo(captureSuccess, captureError)
 }
 
-var captureSuccess(media){
-
+var captureSuccess = function(media){
+  alert( 'yay' );
 }
 
-var captureError(error){
-  console.log("Not captured");
+var captureError = function(error){
+  alert( 'nay' );
 }
+
+// Properties supported by iOS - height, width and duration only
