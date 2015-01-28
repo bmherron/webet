@@ -9,8 +9,8 @@ var captureVideo = function(){
 }
 
 var captureSuccess = function(mediaFiles){
-  var mediaFile = mediaFiles[0]
-  alert(mediaFiles[0]);
+  var mediaFile = mediaFiles[0];
+  console.log(mediaFiles[0]);
 }
 
 var captureError = function(error){
