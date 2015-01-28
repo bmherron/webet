@@ -1,5 +1,8 @@
 <template name="createBetForm">
-  <form class="create-bet small-12 columns">
+  <form class="create-bet">
+  <div id="record-container">
+    {{> _video }}
+  </div>
     <h4 class="text-center">Your bet?</h4>
     <input type="text" name="betTitle" placeholder="I bet that...">
     <h4 class="text-center">The stakes?</h4>
