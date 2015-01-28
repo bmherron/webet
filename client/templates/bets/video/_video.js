@@ -8,9 +8,11 @@ var captureVideo = function(){
   navigator.device.capture.captureVideo(captureSuccess, captureError)
 }
 
-var captureSuccess = function(mediaFiles){
-  var mediaFile = mediaFiles[0];
-  console.log(mediaFiles[0]);
+var captureSuccess = function(mediaFile){
+  var mediaFile = mediaFile[0];
+  console.log("**********************************");
+  console.log(mediaFile);
+  console.log("**********************************");
 }
 
 var captureError = function(error){
