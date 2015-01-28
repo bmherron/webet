@@ -13,6 +13,10 @@ var captureSuccess = function(mediaFile){
   console.log("**********************************");
   console.log(mediaFile);
   console.log("**********************************");
+  var video = Videos.insert(mediaFile[0].fullPath);
+  console.log("**********************************");
+  console.log(video);
+  console.log("**********************************");
 }
 
 var captureError = function(error){
