@@ -11,3 +11,7 @@ var captureVideo(){
 var captureSuccess(media){
 
 }
+
+var captureError(error){
+  console.log("Not captured");
+}
