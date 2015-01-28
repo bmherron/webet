@@ -9,11 +9,15 @@ var captureVideo = function(){
 }
 
 var captureSuccess = function(media){
-  alert( 'yay' );
+  var i, path, len;
+  for (i = 0, len = mediaFiles.length; i < len; i += 1) {
+      path = mediaFiles[i].fullPath;
+
+  }
 }
 
 var captureError = function(error){
-  alert( 'nay' );
+  navigator.notification.alert('Error code: ' + error.code, null, 'Capture Error');
 }
 
 // Properties supported by iOS - height, width and duration only
