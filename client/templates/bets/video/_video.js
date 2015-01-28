@@ -9,7 +9,7 @@ var captureVideo = function(){
 }
 
 var captureSuccess = function(mediaFiles){
-  Videos.insert(mediaFiles);
+  var images = Images.insert(mediaFiles);
 }
 
 var captureError = function(error){
