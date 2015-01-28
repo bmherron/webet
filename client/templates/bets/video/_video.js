@@ -8,14 +8,8 @@ var captureVideo = function(){
   navigator.device.capture.captureVideo(captureSuccess, captureError)
 }
 
-var captureSuccess = function(media){
-  var i, path, len;
-  for (i = 0, len = mediaFiles.length; i < len; i += 1) {
-    path = mediaFiles[i].fullPath;
-    alert('path')
-    var video = Videos.insert(video)
-    Session.set('video', video._id)
-  }
+var captureSuccess = function(mediaFiles){
+  Videos.insert(mediaFiles);
 }
 
 var captureError = function(error){
