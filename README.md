@@ -11,10 +11,10 @@ Our lives are lived in moments. We.bet looks to glorify the fun and fleeting mom
 
 We.Bet is our capstone project of Dev Boot Camp's 18 week immersive web development curriculum. In less than a week, 3 fellow Dev Bootcamp students and myself took an idea from conception to a functional web and mobile application. The fun part about this project is that we had to learn several new technologies from the ground up that are not part of DBC's curriculum. The technologies we used:
 
--Meteor Javascript Web Application Framework
--MongoDB
--Foundation
--Cordova
+- Meteor Javascript Web Application Framework
+- MongoDB
+- Foundation
+- Cordova
 
 # My Contributions
 
