@@ -6,35 +6,30 @@ https://trello.com/b/T5vS74CZ/ideation-phase
 # We.Bet
 
 We.Bet is an app that allows users to share a social experience that revolves around prop bets.
+http://webet.meteor.com/
 
 # Mission Statement
 
 Our lives are lived in moments. We.bet looks to glorify the fun and fleeting moments friends share around a friendly wager. Humanity expose its true heart when good friends make low stakes bets: we are courageous; we are intelligent; we are willing to dive into uncertainty and be irrational. We do this together and at odds all at once. That’s an amazing way to make true connections, and every decision We.bet makes should revolve around putting that bond to another into the palm of anyone’s hand.
 
-# MVP User Stories
+# Description
 
-- As a user, I want to issue a prop bet with friends so that I can challenge them.
-  - As a challenger, I want to specify the bet so that I can personalize our experience.
-  - As a challenger, I want to specify the wager.
-- As a user, I want to receive bets from my friends so that I can hit them with my knowledge.
-  - As a defender, I want to review the pending bet so that I don't accept a bet or wager that I'm uncomfortable with.
+We.Bet is our capstone project of Dev Boot Camp's 18 week immersive web development curriculum. In less than a week, 3 fellow Dev Bootcamp students and myself took an idea from conception to a functional web and mobile application. The fun part about this project is that we had to learn several new technologies from the ground up that are not part of DBC's curriculum. The technologies we used:
 
-- As members of a bet, we want confirm when a bet has been completed.
-- As a loser of a bet, I want to confirm that I've paid up so that the winner remembers that I'm in good standing.
-- As a winner of a bet, I want to confirm that the loser has ponied up so that my friends are in good standing.
+--Meteor Javascript Web Application Framework
+--MongoDB
+--Foundation
+--Cordova
 
-- As a user, I want to connect via FaceBook and Twitter so that I can easily place bets with my friends.
+# My Contributions
 
-## Stretch Goals
+My role in the project was to learn MongoDB and develop the backend for our application. I was responsible to figure out and understand Meteor's publish-subscribe pattern to transfer the correct information from our database to the front end.
 
-- Level 1
-- As a user, I want a reputation point system so that I can track my performance over time.
-- As a guest, I want browse featured bets so that I can see the crazy bet conditions that people have had to fulfill.
-- As a challenger, I want to edit or delete my pending bets before they're accepted so that I don't accidently send a mistaken challenge.
+# Group Members
 
-- Level 2
-- As a user, I want to review bets while they're pending.
-- As an admin, I want to delete bets that might abuse the system or site rules.
-- As a user, I want to flag inappropriate bets so that I don't have to be subjected to spam or harrassment.
-- As a bet loser, I want the option to double-or-nothing so that I can salvage my honor after a lost bet.
-- As a user, I want to see a bet profile that includes photos so that I can share the bet outcome with others.
+[Team Lead: Nick Mascia] (https://github.com/nmmascia)
+
+[Kevin Kwon] (https://github.com/kvnkwon)
+
+[Clifton Fete] (https://github.com/fete)
+
